@@ -1,0 +1,50 @@
+body {
+  background-color: #080808;
+  color: #a5a084;
+}
+
+/*Définir la with du logo à 5% du viewport*/
+#logo > a > img {
+  width: 5vw;
+}
+/*animation de survol du logo*/
+#logo > a > img:hover {
+  transition-property: width;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-in;
+  width: 6vw;
+}
+
+#const {
+  color: #9c8300;
+  font-size: smaller;
+}
+
+#navBox ul {
+  list-style: none;
+  position: absolute;
+  left: 30vw;
+  top: 3vw;
+}
+
+li {
+  display: inline;
+  padding: 5vw;
+}
+li > a {
+  color: #a5a084;
+}
+
+li > a:hover {
+  color: #9c8300;
+}
+
+#whiSq1 {
+  background-color: #080808;
+  border: 5px white solid;
+  width: 30vw;
+  height: 50vh;
+  position: absolute;
+  left: 36vw;
+  top: 15vh;
+}

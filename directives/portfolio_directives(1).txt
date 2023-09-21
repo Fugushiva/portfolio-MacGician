@@ -1,0 +1,24 @@
+J'aimerais un portefolio relativement simpliste, avec pas grand chose comme infos, un peu comme celui ci : 
+https://www.pixpa.com/fr/example/preview/?url=https://kia-kalhor.pixpa.com
+
+- La premiere page serait donc "Home" avec dessus mon Logo en mode simplifier, et un petit message comme sur l'exemple : MacGician : Music Composer, arranger from Belgium with MAO. sans plus.
+
+- La deuxieme page serait le "About" avec dessus une photo de moi, et un petit texte me décrivant, je n'ai actuellement ni l'un ni l'autre a te donner, mais cela ne saurait tarder.
+
+- La troisième page serait "Portoflio" qui reprendrais 3 - 4 de mes musiques, ainsis que les liens qui permettront d'aller les écouter sur soundcloud. de preference j'aimerais avoir le lecteur intégrer dans le site, mais si cela risque d'etre trop lourd, un simple petit logo de la musique ou tu clic dessus t'emmene vers soundcloud peut completement suffir, a toi de voir ce que tu preferes faire. je te fournirais également les musiques, liens et logos des compos a placer en avant dans cette page.
+
+- J'aimerais également avoir une quatrieme page "Contact", ou la cette page servirait uniquement a mettre mes liens de chaines youtubes, chaines soundcloud et mon e-mail.
+
+Je ne recherche pas de chose compliquée alors si tu trouve que quelques chose n'est pas ouf, serait mieu autrement ou que sais-je n'hésites surtout pas.
+
+pour ce qui est des colories du site : 
+- j'imagine un fond de cette couleur : 080808
+- j'imagine les titres des pages, ainsi que mon pseudo 'peut importe ou il se trouve) écrit de cette couleur : 9c8300
+- Le texte autres que dis précédement, de cette couleur : A5A084
+je ne sais pas trop sur quoi il faudrait d'autres couleurs, alors si il te manque des infos hésite pas a me le dire :)
+
+Pour ce qui est de la police utilisée, je ne sais pas si tu as acces a toutes les polices du monde, mais en vrai j'aimerais juste une police simple, lisible, un peu a la Times news romans. pour la taille des choses, je ne sais pas encore quoi te dire.
+
+J'aimerais aussi, si possible, que lorsqu'on clic sur la premiere page alors qu'on est sur la deuxieme par exemple, cela fasse un effet de transition slidée, pas juste une page qui apparait alors que l'autre disparait, si tu vois ce que j'veux dire.
+
+Si tu as besoin d'autres infos ou directive n'hésite pas a demander :) comme ca, j'ai l'impression d'avoir survoler le truc.
