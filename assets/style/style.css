@@ -18,18 +18,24 @@ body {
 #const {
   color: #9c8300;
   font-size: smaller;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  top: 2vh;
 }
 
 #navBox ul {
   list-style: none;
   position: absolute;
-  left: 30vw;
+  left: 28vw;
   top: 3vw;
+  z-index: 1;
 }
 
 li {
   display: inline;
   padding: 5vw;
+  font-size: larger;
 }
 li > a {
   color: #a5a084;
@@ -42,9 +48,61 @@ li > a:hover {
 #whiSq1 {
   background-color: #080808;
   border: 5px white solid;
-  width: 30vw;
-  height: 50vh;
-  position: absolute;
-  left: 36vw;
+  width: 15vw;
+  height: 15vw;
+  left: -5vw;
   top: 15vh;
+  position: absolute;
+  animation: 6s linear infinite alternate r-w;
+}
+
+@keyframes r-w {
+  from {
+    transform: rotate(15deg);
+  }
+  to {
+    transform: rotate(-15deg);
+  }
+}
+#scInteger {
+  position: absolute;
+  left: 32vw;
+  top: 10vh;
+  gap: 50px 50px;
+}
+
+#scElements > iframe {
+  display: flex;
+  margin-top: 5%;
+  width: 150%;
+}
+
+#scElements > iframe:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+#line {
+  width: 90%;
+  height: 1px;
+  background-color: #9c8300;
+  position: absolute;
+  left: 5%;
+  bottom: 15%;
+}
+
+#aboutMe {
+  position: absolute;
+  width: 40vw;
+  right: 10vw;
+  top: 20vh;
+  color: #a5a084;
+}
+
+#aboutSq {
+  width: 25vw;
+  height: 25vw;
+  border: 2px solid #a5a084;
+  position: absolute;
+  left: 10vw;
+  top: 20vh;
 }
