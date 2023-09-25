@@ -2,6 +2,8 @@
     include('include/header.php');
 ?>
 <div id="aboutSq"></div>
+<div id="slogan"><quote>Dream until your dreams come true...</quote><p><i>-Aerosmith</i></p>
+</div>
 <div id="aboutMe">
     <p>
         Je vois l'art musical comme un langage a part entiere, une forme de communication qui permettrais de transmettre ce que l'on ressent. 

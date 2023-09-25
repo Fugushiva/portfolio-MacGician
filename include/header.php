@@ -7,12 +7,13 @@
     <meta name="description" content="Portfolio Constantin MacGician Dimitriadis">
     <link rel="stylesheet" href="assets/style/style.css">
     <link rel="shortcut icon" href="images/logo.svg" type="image/x-icon">
+    <script src="assets/script/script.js"></script>
 
     <title>porfolio MacGician</title>
 </head>
 <body>
     <header>
-        <div id="logo"><a href="https://soundcloud.com/macgician" title="mon SoundCloud" target="_blank"><img src="images/logo.svg" alt="Logo de MacGician"></a></div>
+        <div id="logo"><a href="https://soundcloud.com/macgician" title="mon SoundCloud" target="_blank"><img src="images/svg/logo.svg" alt="Logo de MacGician"></a></div>
         <div id="navBox">
             <nav>
                 <ul>

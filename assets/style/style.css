@@ -13,6 +13,7 @@ body {
   transition-duration: 0.3s;
   transition-timing-function: ease-in;
   width: 6vw;
+  fill: aqua;
 }
 
 #const {
@@ -71,6 +72,10 @@ li > a:hover {
   gap: 50px 50px;
 }
 
+#scList {
+  list-style: none;
+}
+
 #scElements > iframe {
   display: flex;
   margin-top: 5%;
@@ -96,6 +101,7 @@ li > a:hover {
   right: 10vw;
   top: 20vh;
   color: #a5a084;
+  font-size: 20pt;
 }
 
 #aboutSq {
@@ -105,4 +111,30 @@ li > a:hover {
   position: absolute;
   left: 10vw;
   top: 20vh;
+}
+
+#slogan {
+  position: absolute;
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  color: #9c8300;
+  font-size: larger;
+  line-height: 15%;
+  left: 40vw;
+  top: 25vh;
+  transform: rotate(180deg);
+  visibility: hidden;
+  opacity: 0;
+  font-size: 30pt;
+}
+
+.media > img {
+  width: 30px;
+  padding: 10px;
+}
+
+#socialMedia {
+  position: absolute;
+  display: flex;
+  left: 75vw;
 }
