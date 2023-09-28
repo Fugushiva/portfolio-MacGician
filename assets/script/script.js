@@ -6,7 +6,7 @@ window.onload = function () {
     divSlogan.style.visibility = "visible";
     divSlogan.style.opacity = 1;
     divSlogan.style.transitionProperty = "opacity";
-    divSlogan.style.transitionDuration = "3.14s";
+    divSlogan.style.transitionDuration = "1.5s";
     divSlogan.style.transitionTimingFunction = "ease-in";
-  }, 1800);
+  }, 1500);
 };

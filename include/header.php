@@ -12,15 +12,13 @@
     <title>porfolio MacGician</title>
 </head>
 <body>
-    <header>
+    <header class="header">
         <div id="logo"><a href="https://soundcloud.com/macgician" title="mon SoundCloud" target="_blank"><img src="images/svg/logo.svg" alt="Logo de MacGician"></a></div>
-        <div id="navBox">
-            <nav>
-                <ul>
-                    <li><a href="index.php">Home</a></li>
-                    <li><a href="about.php">About</a></li>
-                    <li><a href="portfolio.php">Porfolio</a></li>
-                </ul>
+            <nav id="navBox">
+                <li class="navBoxElem"><a href="index.php">Home</a></li>
+                <li class="navBoxElem"><a href="portfolio.php">Porfolio</a></li>
+                <li class="navBoxElem"><a href="portfolio.php">Contact</a></li>
+
             </nav>
-        </div>
     </header>
+    
