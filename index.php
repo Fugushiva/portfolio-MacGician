@@ -2,9 +2,6 @@
     include('include/header.php');
 ?>
 <article class="article">
-    <div id="holder">
-        <img id="photo" src="images/jpeg/const.jpg" alt="" >
-    </div>
     <div id="slogan"><quote>Dream until your dreams come true...</quote>
     <br>
     <i id="slogAuth">-Aerosmith</i>

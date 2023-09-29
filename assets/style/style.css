@@ -1,43 +1,75 @@
 body {
   background-color: #080808;
   color: #a5a084;
-  font-size: 10pt;
+  font-size: 20pt;
+  overflow-x: hidden;
 }
 
+@media (max-width: 768px) {
+  body {
+    font-size: 10pt;
+    overflow-x: hidden;
+    .article {
+      max-width: 100%;
+      overflow-x: hidden;
+    }
+    .navBoxElem > a {
+      font-size: 1pc;
+    }
+
+    #logo > a > img {
+      width: 30px;
+    }
+    #logo{
+        width: 50px;
+        height: 50;
+    }
+    #slogan {
+      font-size: 1.5pc;
+    }
+  }
+}
 .header {
   background-color: #080808;
-  display: flex;
-  width: 90%;
+  width: 100%;
   margin: 0 auto;
 }
-
-@media (max-with: 768px) {
-  body {
-    font-size: 8pt;
-  }
-
-  #slogan {
-    font-size: 1.5pc;
-  }
-}
-
 /*Définir la with du logo à 50px */
 #logo > a > img {
+  width: 60px;
+  left: -15%;
+}
+
+#logo > a > img:hover {
   width: 80px;
+  transition: width 0.5s ease-in;
+}
+
+#logo {
+  width: 100px;
+  height: 100px;
+  display: flex;
+}
+
+#logo {
+  align-items: center;
+  justify-content: center;
 }
 
 #navBox {
   list-style: none;
-  position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 15%;
-  width: 82.5%;
+  gap: 4.5%;
+  width: 60%;
+  margin: -4.3% auto 0 auto;
 }
 
 li > a > img {
   width: 25px;
+  position: relative;
+ 
 }
 .navBoxElem > a {
   color: #a5a084;
@@ -45,7 +77,15 @@ li > a > img {
   justify-content: center;
   align-items: center;
   position: relative;
-  font-size: larger;
+  font-size: 2pc;
+  padding-bottom: 10%;
+  text-decoration: none;
+}
+
+#navBoxSeparator {
+  width: 2px;
+  height: 2pc;
+  background-color: #9c8300;
 }
 
 .navBoxElem > a:hover {
@@ -55,19 +95,8 @@ li > a > img {
 .article {
   background-color: #080808;
   display: flexbox;
-  width: 90%;
+  width: 80%;
   margin: 0 auto;
-}
-#holder {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-}
-#photo {
-  position: relative;
-  border-radius: 50%;
-  width: clamp(100px, 150px, 30%);
-  margin: 10px auto;
 }
 
 #slogan {
@@ -76,11 +105,12 @@ li > a > img {
   color: #9c8300;
   visibility: 0;
   opacity: 0;
-  font-size: 2pc;
+  font-size: 3pc;
+  margin-top: 5%;
 }
 
 #slogAuth {
-  font-size: medium;
+  font-size: 1.5pc;
   position: relative;
   display: flex;
   justify-content: center;
@@ -88,24 +118,24 @@ li > a > img {
 }
 
 #aboutMe {
-  position: relative;
   justify-content: center;
 }
 
 .footer {
   background-color: #080808;
-  position: relative;
-  display: flexbox;
-  width: auto;
+  display: flex;
+  flex-direction: column;
   height: fit-content;
+  justify-content: center;
+ 
 }
 
 #line {
-  width: 90%;
+  width: 80%;
   height: 2px;
   background-color: #9c8300;
-  justify-content: center;
-  margin: 0% auto;
+ margin: 0 auto;
+
 }
 
 #socialMedia {
@@ -118,15 +148,48 @@ li > a > img {
 }
 
 #socialMedia > .media > img {
-  width: 25px;
+  width: 35px;
 }
 
 #const {
-  display: flex;
-  position: relative;
+
   justify-content: center;
   align-items: center;
   width: fit-content;
   height: fit-content;
   margin: 1% auto;
+}
+
+#scInteger {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+  gap: 5%;
+  margin: 5% auto;
+}
+#scElem {
+  justify-content: center;
+  visibility: hidden;
+  opacity: 0;
+}
+
+#whiteLine1 {
+  height: 1px;
+  width: 0%;
+  background-color: #a5a084;
+  z-index: 0;
+}
+
+#whiteLine2 {
+  height: 1px;
+  width: 0%;
+  background-color: #a5a084;
+  bottom: 50%;
+  z-index: 0;
+}
+
+#containerPortfolio{
+
+  margin: 0% auto;
 }
