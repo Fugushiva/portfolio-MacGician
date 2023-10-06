@@ -18,7 +18,8 @@
         <p>
             Je suis déterminé à poursuivre ma passion pour la musique et à élargir mes horizons artistiques. 
             Mon objectif ultime est de travailler sur des projets ambitieux tels que des films, des séries et des mangas, où ma musique pourra contribuer à créer des expériences cinématographiques et narratives inoubliables.
-
+        </p>
+        <p>
             Je rêve de composer des bandes originales qui transportent les spectateurs dans des mondes imaginaires, où chaque note musicale évoque des émotions profondes et renforce l'impact des images à l'écran.
             Je crois fermement que la musique a le pouvoir de transcender les frontières linguistiques et culturelles, et je veux exploiter ce pouvoir pour raconter des histoires à travers des notes et des mélodies.
         </p>

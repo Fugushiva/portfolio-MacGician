@@ -7,6 +7,9 @@
     <meta name="description" content="Portfolio Constantin MacGician Dimitriadis">
     <link rel="stylesheet" href="assets/style/style.css">
     <link rel="shortcut icon" href="images/svg/logo.svg" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lancelot&display=swap" rel="stylesheet">
     <script src="assets/script/script.js"></script>
 
     <title>porfolio MacGician</title>
@@ -19,7 +22,7 @@
             <li class="navBoxElem" id="navBoxSeparator"></li>
             <li class="navBoxElem"><a href="portfolio.php">Porfolio</a></li>
             <li class="navBoxElem" id="navBoxSeparator"></li>
-            <li class="navBoxElem"><a href="#">Contact</a></li>
+            <li class="navBoxElem"><a href="contact.php">Contact</a></li>
         </nav>
     </header>
     
